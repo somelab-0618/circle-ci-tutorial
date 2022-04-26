@@ -10,5 +10,5 @@ jobs:
       - run: npm ci
       - run: npm run dev
       - run:
-        name: php test
-        command: vendor/bin/php/unit
+          name: php test
+          command: vendor/bin/phpunit
